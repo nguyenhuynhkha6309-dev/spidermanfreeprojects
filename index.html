@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>SPIDER-MAN — Beyond The Mask</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- BACKGROUND -->
+  <canvas id="cityCanvas"></canvas>
+
+  <div class="rain"></div>
+  <div class="red-glow"></div>
+  <div class="blue-glow"></div>
+
+  <!-- NAV -->
+  <header class="nav">
+
+    <a href="#home" class="logo">
+      <span class="spider-mini">✦</span>
+      SPIDER<span>-MAN</span>
+    </a>
+
+    <nav id="nav">
+      <a href="#home" class="active">HOME</a>
+      <a href="#suits">SUITS</a>
+      <a href="#villains">VILLAINS</a>
+      <a href="#story">STORY</a>
+    </nav>
+
+    <button class="spider-button" id="verseButton">
+      ENTER SPIDER-VERSE
+    </button>
+
+    <button class="menu" id="menu">☰</button>
+
+  </header>
+
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+
+      <div class="web web-one"></div>
+      <div class="web web-two"></div>
+
+      <div class="hero-content">
+
+        <div class="eyebrow">
+          <span></span>
+          FRIENDLY NEIGHBORHOOD HERO
+        </div>
+
+        <p class="issue">
+          ISSUE #001 — THE CITY NEVER SLEEPS
+        </p>
+
+        <h1>
+          WITH GREAT
+          <span>POWER.</span>
+        </h1>
+
+        <h1 class="second-title">
+          COMES GREAT
+          <em>RESPONSIBILITY.</em>
+        </h1>
+
+        <p class="hero-text">
+          One city. One mask. A thousand stories.
+          Swing through the streets of New York and
+          discover the world behind the web.
+        </p>
+
+        <div class="hero-actions">
+
+          <button class="main-button" id="swingButton">
+            START SWINGING
+            <span>↗</span>
+          </button>
+
+          <button class="outline-button" id="storyButton">
+            READ THE STORY
+          </button>
+
+        </div>
+
+        <div class="hero-stats">
+
+          <div>
+            <strong>∞</strong>
+            <small>WEB LINES</small>
+          </div>
+
+          <div>
+            <strong>24/7</strong>
+            <small>CITY WATCH</small>
+          </div>
+
+          <div>
+            <strong>1</strong>
+            <small>SPIDER-MAN</small>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- SPIDER MAN FIGURE -->
+      <div class="spider-stage">
+
+        <div class="spider-web-circle"></div>
+
+        <div class="spider-shadow"></div>
+
+        <div class="spider">
+
+          <div class="spider-head">
+
+            <div class="eye eye-left"></div>
+            <div class="eye eye-right"></div>
+
+          </div>
+
+          <div class="spider-neck"></div>
+
+          <div class="spider-body">
+
+            <div class="spider-symbol">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+          </div>
+
+          <div class="arm arm-left"></div>
+          <div class="arm arm-right"></div>
+
+          <div class="leg leg-left"></div>
+          <div class="leg leg-right"></div>
+
+        </div>
+
+        <div class="swing-line"></div>
+
+        <div class="hero-tag">
+          <span>IDENTITY</span>
+          <strong>UNKNOWN</strong>
+          <small>NEW YORK CITY</small>
+        </div>
+
+      </div>
+
+
+      <div class="scroll">
+        <span></span>
+        SCROLL DOWN
+      </div>
+
+    </section>
+
+
+    <!-- COMIC STRIP -->
+    <div class="comic-strip">
+
+      <div class="comic-track">
+
+        <span>THWIP!</span>
+        <i>✦</i>
+
+        <span>POW!</span>
+        <i>✦</i>
+
+        <span>WHOOSH!</span>
+        <i>✦</i>
+
+        <span>THWIP!</span>
+        <i>✦</i>
+
+        <span>BOOM!</span>
+        <i>✦</i>
+
+        <span>THWIP!</span>
+        <i>✦</i>
+
+        <span>POW!</span>
+        <i>✦</i>
+
+        <span>WHOOSH!</span>
+
+      </div>
+
+    </div>
+
+
+    <!-- SUITS -->
+    <section class="section" id="suits">
+
+      <div class="section-heading">
+
+        <div>
+
+          <span class="section-number">
+            01 / THE SUITS
+          </span>
+
+          <h2>
+            CHOOSE
+            <em>YOUR MASK.</em>
+          </h2>
+
+        </div>
+
+        <p>
+          Every suit tells a different story.
+          Every version carries the same responsibility.
+        </p>
+
+      </div>
+
+
+      <div class="suit-grid">
+
+
+        <article class="suit-card classic" data-suit="classic">
+
+          <div class="card-number">01</div>
+
+          <div class="suit-preview">
+
+            <div class="mask">
+              <div class="mask-eye left"></div>
+              <div class="mask-eye right"></div>
+            </div>
+
+            <div class="suit-spider"></div>
+
+          </div>
+
+          <div class="card-info">
+
+            <span>THE ORIGINAL</span>
+
+            <h3>CLASSIC</h3>
+
+            <p>
+              The suit that started it all.
+            </p>
+
+            <button class="discover">
+              VIEW SUIT →
+            </button>
+
+          </div>
+
+        </article>
+
+
+        <article class="suit-card black" data-suit="black">
+
+          <div class="card-number">02</div>
+
+          <div class="suit-preview">
+
+            <div class="mask">
+              <div class="mask-eye left"></div>
+              <div class="mask-eye right"></div>
+            </div>
+
+            <div class="suit-spider"></div>
+
+          </div>
+
+          <div class="card-info">
+
+            <span>SYMBIOTE</span>
+
+            <h3>BLACK SUIT</h3>
+
+            <p>
+              Power always comes with a price.
+            </p>
+
+            <button class="discover">
+              VIEW SUIT →
+            </button>
+
+          </div>
+
+        </article>
+
+
+        <article class="suit-card iron" data-suit="iron">
+
+          <div class="card-number">03</div>
+
+          <div class="suit-preview">
+
+            <div class="mask">
+              <div class="mask-eye left"></div>
+              <div class="mask-eye right"></div>
+            </div>
+
+            <div class="suit-spider"></div>
+
+          </div>
+
+          <div class="card-info">
+
+            <span>STARK TECH</span>
+
+            <h3>IRON SPIDER</h3>
+
+            <p>
+              Advanced armor. Same responsibility.
+            </p>
+
+            <button class="discover">
+              VIEW SUIT →
+            </button>
+
+          </div>
+
+        </article>
+
+
+        <article class="suit-card miles" data-suit="miles">
+
+          <div class="card-number">04</div>
+
+          <div class="suit-preview">
+
+            <div class="mask">
+              <div class="mask-eye left"></div>
+              <div class="mask-eye right"></div>
+            </div>
+
+            <div class="suit-spider"></div>
+
+          </div>
+
+          <div class="card-info">
+
+            <span>ANOTHER UNIVERSE</span>
+
+            <h3>SPIDER-VERSE</h3>
+
+            <p>
+              More than one person can wear the mask.
+            </p>
+
+            <button class="discover">
+              VIEW SUIT →
+            </button>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- BIG QUOTE -->
+    <section class="quote-section">
+
+      <div class="halftone"></div>
+
+      <span>
+        EVERYONE HAS A STORY.
+      </span>
+
+      <h2>
+        ANYONE
+        <em>CAN WEAR</em>
+        THE MASK.
+      </h2>
+
+      <div class="quote-web"></div>
+
+    </section>
+
+
+    <!-- VILLAINS -->
+    <section class="section villains" id="villains">
+
+      <div class="section-heading">
+
+        <div>
+
+          <span class="section-number">
+            02 / THREATS
+          </span>
+
+          <h2>
+            THE
+            <em>VILLAINS.</em>
+          </h2>
+
+        </div>
+
+        <p>
+          Every hero needs someone to fight.
+          New York has no shortage of monsters.
+        </p>
+
+      </div>
+
+
+      <div class="villain-grid">
+
+
+        <article class="villain-card goblin">
+
+          <div class="villain-bg"></div>
+
+          <span class="danger">
+            THREAT LEVEL 09
+          </span>
+
+          <div class="villain-copy">
+
+            <small>01</small>
+
+            <h3>
+              GREEN
+              <strong>GOBLIN</strong>
+            </h3>
+
+            <p>
+              CHAOS • TECHNOLOGY • MADNESS
+            </p>
+
+          </div>
+
+        </article>
+
+
+        <article class="villain-card venom">
+
+          <div class="villain-bg"></div>
+
+          <span class="danger">
+            THREAT LEVEL 10
+          </span>
+
+          <div class="villain-copy">
+
+            <small>02</small>
+
+            <h3>
+              <strong>VENOM</strong>
+            </h3>
+
+            <p>
+              SYMBIOTE • POWER • HUNGER
+            </p>
+
+          </div>
+
+        </article>
+
+
+        <article class="villain-card doc">
+
+          <div class="villain-bg"></div>
+
+          <span class="danger">
+            THREAT LEVEL 08
+          </span>
+
+          <div class="villain-copy">
+
+            <small>03</small>
+
+            <h3>
+              DOC
+              <strong>OCK</strong>
+            </h3>
+
+            <p>
+              SCIENCE • TENTACLES • OBSESSION
+            </p>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- STORY -->
+    <section class="story section" id="story">
+
+      <div class="story-visual">
+
+        <div class="story-ring ring-one"></div>
+        <div class="story-ring ring-two"></div>
+
+        <div class="story-number">
+          <span>1962</span>
+          <strong>→</strong>
+          <span>NOW</span>
+        </div>
+
+      </div>
+
+
+      <div class="story-content">
+
+        <span class="section-number">
+          03 / THE STORY
+        </span>
+
+        <h2>
+          MORE THAN
+          <em>A HERO.</em>
+        </h2>
+
+        <p>
+          Behind the mask is a person.
+          Someone trying to balance school, friends,
+          family, love and a responsibility bigger
+          than themselves.
+        </p>
+
+        <p>
+          The suit doesn't make the hero.
+          The choices do.
+        </p>
+
+        <button class="main-button" id="randomSuit">
+          RANDOM SUIT
+          <span>✦</span>
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <!-- FINAL CTA -->
+    <section class="final">
+
+      <div class="city-silhouette"></div>
+
+      <span class="section-number">
+        NEW YORK NEEDS YOU
+      </span>
+
+      <h2>
+        STAY
+        <em>AMAZING.</em>
+      </h2>
+
+      <button class="main-button" id="topButton">
+        SWING BACK UP
+        <span>↑</span>
+      </button>
+
+    </section>
+
+  </main>
+
+
+  <!-- SUIT MODAL -->
+  <div class="modal" id="suitModal">
+
+    <div class="modal-box">
+
+      <button class="close" id="closeModal">
+        ×
+      </button>
+
+      <div class="modal-art">
+
+        <div class="modal-mask">
+          <div></div>
+          <div></div>
+        </div>
+
+      </div>
+
+      <div class="modal-content">
+
+        <span id="modalType">
+          SUIT
+        </span>
+
+        <h2 id="modalTitle">
+          CLASSIC
+        </h2>
+
+        <p id="modalDescription">
+          The legendary red and blue suit.
+        </p>
+
+        <div class="modal-data">
+
+          <div>
+            <small>ORIGIN</small>
+            <strong id="modalOrigin">
+              EARTH-616
+            </strong>
+          </div>
+
+          <div>
+            <small>STYLE</small>
+            <strong id="modalStyle">
+              CLASSIC
+            </strong>
+          </div>
+
+          <div>
+            <small>STATUS</small>
+            <strong>ICONIC</strong>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- SPIDER VERSE -->
+  <div class="verse" id="verse">
+
+    <button class="verse-close" id="verseClose">
+      ×
+    </button>
+
+    <div class="verse-noise"></div>
+
+    <div class="verse-content">
+
+      <div class="verse-spider">
+        <div class="verse-eye one"></div>
+        <div class="verse-eye two"></div>
+      </div>
+
+      <span>
+        ACCESSING MULTIVERSE
+      </span>
+
+      <h2>
+        ONE MASK.
+        <em>INFINITE WORLDS.</em>
+      </h2>
+
+      <div class="verse-line">
+        <span></span>
+      </div>
+
+      <p>
+        THERE IS ALWAYS ANOTHER SPIDER-MAN.
+      </p>
+
+    </div>
+
+  </div>
+
+
+  <!-- FOOTER -->
+  <footer>
+
+    <div class="footer-logo">
+      ✦ SPIDER-MAN
+    </div>
+
+    <p>
+      With great power comes great responsibility.
+    </p>
+
+    <span>
+      BEYOND THE MASK — 2026
+    </span>
+
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
